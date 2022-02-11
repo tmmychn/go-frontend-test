@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@icon/elegant-icons": "^0.0.1-alpha.4",
+    "jquery": "^3.6.0",
     "lodash": "^4.17.21"
   }
 }

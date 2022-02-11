@@ -1,6 +1,8 @@
 import _ from 'lodash';
 import './style.css';
 import './fonts.css';
+import './animations.css';
+import './main.js';
 
 import leftshape from './assets/shape_left.png';
 import rightshape from './assets/shape_right.png';

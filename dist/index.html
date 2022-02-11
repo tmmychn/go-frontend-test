@@ -35,8 +35,14 @@
       </div>
       <i class="ei ei-arrow_carrot-down_alt2 text-center"></i>
   </div>
-  <div class="header">
+  <!-- Header -->
+  <div class="header d-flex justify-content-between">
       <img src="./assets/apd-logo.png" alt="logo" class="logo">
+      <div class="menu-icon">
+          <i class="ei ei-icon_menu menu-open"></i>
+          <i class="ei ei-icon_close menu-close"></i>
+      </div>
+      
       <div class="navbar">
         <ul id="nav">
             <li><a href="#">Home</a></li>
@@ -47,22 +53,22 @@
             <li><a href="#">Mega menu</a></li>
             <li><a href="#">contact</a></li>
         </ul>
-        <span data-icon="&#xe004"></span>
+        <i class="ei ei-icon_search nav-search"></i>
       </div>
   </div>
   <!-- What We Offer -->
   <div class="section-container text-center spaced" id="what-we-offer">
     <div class="title-container">
-        <div class="title2">
+        <div class="title2 d-flex justify-content-center align-items-center">
             <span class="deco__line"></span>
-            <span class="shape__left"></span>
+            <img src="./assets/shape_left.png" alt="shape" class="title-deco mr-2">
             <h2 class="Text-Style-5">what we <span class="Text-Style-3">offer</span></h2>
-            <span class="shape__right"></span>
+            <img src="./assets/shape_right.png" alt="shape" class="title-deco ml-2">
             <span class="deco__line"></span>
         </div>
         <h3 class="text-grey pt-2">We offer our customers the best services & solutions, this is our main services list</h3>
     </div>
-    <div class="row spaced">
+    <div class="row spaced mb-4">
         <div class="col-sm">
             <i class="ei ei-icon_desktop bg-black"></i>
             <h4 class="text-dark">Responsive & multipurpuse</h4>
@@ -85,13 +91,16 @@
    </div>
   <!-- Skills -->
   <div class="section-container bg-black text-center spaced" id="skills">
-    <div class="section-break"></div>
-    <div class="title-container">
-        <div class="title2">
+    <div class="section-break">
+        <img src="./assets/section-icon_2.png" alt="section icon">
+        <i class="ei ei-icon_toolbox"></i>
+    </div>
+    <div class="title-container mt-4">
+        <div class="title2 d-flex justify-content-center align-items-center">
             <span class="deco__line"></span>
-            <span class="shape__left"></span>
+            <img src="./assets/shape_left.png" alt="shape" class="title-deco mr-2">
             <h2 class="text-white">our powerful <span class="Text-Style-3">skills</span></h2>
-            <span class="shape__right"></span>
+            <img src="./assets/shape_right.png" alt="shape" class="title-deco ml-2">
             <span class="deco__line"></span>
         </div>
         <h3 class="text-grey">We’re good and experienced at different things and areas and we promise about qulity of our works</h3>
@@ -116,7 +125,7 @@
         </div>
         <div class="col-sm">
             <div class="graph-container">
-                <div class="circular">
+                <div class="circular circular-2">
                     <div class="inner"></div>
                     <div class="graph__percentage text-white">92<span>%</span></div>
                     <div class="circle">
@@ -133,7 +142,7 @@
         </div>
         <div class="col-sm">
             <div class="graph-container">
-                <div class="circular">
+                <div class="circular circular-3">
                     <div class="inner"></div>
                     <div class="graph__percentage text-white">68<span>%</span></div>
                     <div class="circle">
@@ -150,7 +159,7 @@
         </div>
         <div class="col-sm">
             <div class="graph-container">
-                <div class="circular">
+                <div class="circular circular-4">
                     <div class="inner"></div>
                     <div class="graph__percentage text-white">100<span>%</span></div>
                     <div class="circle">
@@ -167,7 +176,7 @@
         </div>
         <div class="col-sm">
             <div class="graph-container">
-                <div class="circular">
+                <div class="circular circular-5">
                     <div class="inner"></div>
                     <div class="graph__percentage text-white">83<span>%</span></div>
                     <div class="circle">
@@ -184,7 +193,7 @@
         </div>
         <div class="col-sm">
             <div class="graph-container">
-                <div class="circular">
+                <div class="circular circular-6">
                     <div class="inner"></div>
                     <div class="graph__percentage text-white">50<span>%</span></div>
                     <div class="circle">
@@ -202,10 +211,13 @@
     </div>
   </div>
   <!-- Strengths -->
-  <div class="section-container" id="strenghts">
+  <div class="section-container spaced" id="strenghts">
       <!-- Strength 1 -->
-      <div>
-          <img src="./assets/icon-4.png" alt="icon">
+      <div class="strength-content-container">
+          <div class="strength-icon">
+              <img src="./assets/icon_4.png" alt="icon">
+              <i class="ei ei-icon_desktop"></i>
+          </div>
           <div class="content-container">
               <h4 class="text-dark">Responsive & Multipurpose</h4>
               <h5 class="text-light">Desktops, Tablets & Phones</h5>
@@ -213,8 +225,11 @@
           </div>
       </div>
       <!-- Strength 2 -->
-      <div>
-        <div class="icon__strength"></div>
+      <div class="strength-content-container">
+        <div class="strength-icon">
+            <img src="./assets/icon_4.png" alt="icon">
+            <i class="ei ei-icon_puzzle_alt"></i>
+        </div>
         <div class="content-container">
             <h4 class="text-dark">Easy customization</h4>
             <h5 class="text-light">One Click Demo Content Installation</h5>
@@ -222,8 +237,11 @@
         </div>
       </div>
       <!-- Strength 3 -->
-      <div>
-        <div class="icon__strength"></div>
+      <div class="strength-content-container">
+        <div class="strength-icon">
+            <img src="./assets/icon_4.png" alt="icon">
+            <i class="ei ei-icon_star"></i>
+        </div>
         <div class="content-container">
             <h4 class="text-dark">unlimited features</h4>
             <h5 class="text-light">Shortcodes, Typography & Different Layouts</h5>
@@ -231,8 +249,11 @@
         </div>
       </div>
       <!-- Strength 4 -->
-      <div>
-        <div class="icon__strength"></div>
+      <div class="strength-content-container">
+        <div class="strength-icon">
+            <img src="./assets/icon_4.png" alt="icon">
+            <i class="ei ei-icon_menu-square_alt"></i>
+        </div>
         <div class="content-container">
             <h4 class="text-dark">clean & modular coding</h4>
             <h5 class="text-light">100% Clean, Valid & Well-Commented Coding</h5>
@@ -240,8 +261,11 @@
         </div>
       </div>
       <!-- Strength 5 -->
-      <div>
-        <div class="icon__strength"></div>
+      <div class="strength-content-container">
+        <div class="strength-icon">
+            <img src="./assets/icon_4.png" alt="icon">
+            <i class="ei ei-icon_cart"></i>
+        </div>
         <div class="content-container">
             <h4 class="text-dark">the best e-commerce solutions</h4>
             <h5 class="text-light">WooCommerce Fully Integration</h5>
@@ -249,8 +273,11 @@
         </div>
       </div>
       <!-- Strength 6 -->
-      <div>
-        <div class="icon__strength"></div>
+      <div class="strength-content-container">
+        <div class="strength-icon">
+            <img src="./assets/icon_4.png" alt="icon">
+            <i class="ei ei-icon_lifesaver"></i>
+        </div>
         <div class="content-container">
             <h4 class="text-dark">awesome friendly support</h4>
             <h5 class="text-light">Free Lifetime Support & Updates</h5>
@@ -259,90 +286,102 @@
       </div>
   </div>
   <!-- Teams -->
-  <div class="section-container bg-black" id="team">
-      <div class="row">
+  <div class="section-container bg-black text-center" id="team">
+      <div class="row spaced">
           <!-- Card 1 -->
-          <div class="team-card col-sm">
-              <img src="" alt="">
-              <div class="team-card__name">
-                  <h4>Alexis Simpson</h4>
-              </div>
-              <h5>CEO & Developer</h5>
-              <div class="contact-info">
-                  <div class="email">
-                      <span></span>
-                      <h5>a.simpson@unique.com</h5>
-                  </div>
-                  <div class="phone">
-                      <span></span>
-                      <h5>+1 911 (77) 222-1111</h5>
-                  </div>
-              </div>
+          <div class="card team-card col-sm">
+            <img src="assets/image.png" alt="image" class="card-img-top">
+            <div class="card-body">
+                <div class="team-card__name">
+                    <h4>Alexis Simpson</h4>
+                </div>
+                <h5>CEO & Developer</h5>
+                <div class="contact-info">
+                    <div class="top-border"></div>
+                    <div class="email">
+                        <span></span>
+                        <h5> <i class="ei ei-icon_mail"> </i>a.simpson@unique.com</h5>
+                    </div>
+                    <div class="phone">
+                        <span></span>
+                        <h5><i class="ei ei-icon_phone"> </i>+1 911 (77) 222-1111</h5>
+                    </div>
+                </div>
+            </div>
           </div>
           <!-- Card 2 -->
-          <div class="team-card col-sm">
-            <img src="" alt="">
-            <div class="team-card__name">
-                <h4>Steven Cole</h4>
-            </div>
-            <h5>User Interface Designer</h5>
-            <div class="contact-info">
-                <div class="email">
-                    <span></span>
-                    <h5>s.cole@unique.com</h5>
+          <div class="card team-card col-sm">
+            <img src="assets/image.png" alt="image" class="card-img-top">
+            <div class="card-body">
+                <div class="team-card__name">
+                    <h4>Steven Cole</h4>
                 </div>
-                <div class="phone">
-                    <span></span>
-                    <h5>+1 911 (77) 222-1111</h5>
+                <h5>User Interface Designer</h5>
+                <div class="contact-info">
+                    <div class="top-border"></div>
+                    <div class="email">
+                        <span></span>
+                        <h5> <i class="ei ei-icon_mail"> </i>a.simpson@unique.com</h5>
+                    </div>
+                    <div class="phone">
+                        <span></span>
+                        <h5><i class="ei ei-icon_phone"> </i>+1 911 (77) 222-1111</h5>
+                    </div>
                 </div>
             </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="card team-card col-sm">
+            <img src="assets/image.png" alt="image" class="card-img-top">
+            <div class="card-body">
+                <div class="team-card__name">
+                    <h4>Frank Piener</h4>
+                </div>
+                <h5>Sales Manager</h5>
+                <div class="contact-info">
+                    <div class="top-border"></div>
+                    <div class="email">
+                        <span></span>
+                        <h5> <i class="ei ei-icon_mail"> </i>a.simpson@unique.com</h5>
+                    </div>
+                    <div class="phone">
+                        <span></span>
+                        <h5><i class="ei ei-icon_phone"> </i>+1 911 (77) 222-1111</h5>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="card team-card col-sm">
+            <img src="assets/image.png" alt="image" class="card-img-top">
+            <div class="card-body">
+                <div class="team-card__name">
+                    <h4>Ashley Lennon</h4>
+                </div>
+                <h5>IT Specialist</h5>
+                <div class="contact-info">
+                    <div class="top-border"></div>
+                    <div class="email">
+                        <span></span>
+                        <h5> <i class="ei ei-icon_mail"> </i>a.simpson@unique.com</h5>
+                    </div>
+                    <div class="phone">
+                        <span></span>
+                        <h5><i class="ei ei-icon_phone"> </i>+1 911 (77) 222-1111</h5>
+                    </div>
+                </div>
+            </div>
+          </div>
         </div>
-        <!-- Card 3 -->
-        <div class="team-card col-sm">
-            <img src="" alt="">
-            <div class="team-card__name">
-                <h4>Frank Piener</h4>
-            </div>
-            <h5>Sales Manager</h5>
-            <div class="contact-info">
-                <div class="email">
-                    <span></span>
-                    <h5>f.piener@unique.com</h5>
-                </div>
-                <div class="phone">
-                    <span></span>
-                    <h5>+1 911 (77) 222-1111</h5>
-                </div>
-            </div>
-        </div>
-        <!-- Card 4 -->
-        <div class="team-card col-sm">
-            <img src="" alt="">
-            <div class="team-card__name">
-                <h4>Ashley Lennon</h4>
-            </div>
-            <h5>IT Specialist</h5>
-            <div class="contact-info">
-                <div class="email">
-                    <span></span>
-                    <h5>a.lennon@unique.com</h5>
-                </div>
-                <div class="phone">
-                    <span></span>
-                    <h5>+1 911 (77) 222-1111</h5>
-                </div>
-            </div>
-        </div>
-      </div>
       <button>view all works</button>
   </div>
   <!-- Registration Form -->
   <div class="section-container" id="registeration-form">
-      <div>Register Your Interest</div>
-      <form action="">
-          <ul class="list-unstyled">
+      <div class="form-title">Register Your Interest</div>
+      <form action="" class="mb-4">
+          <ul class="list-unstyled spaced">
               <li>
-                  <input type="text" placeholder="name">
+                  <input type="text" placeholder="Name">
               </li>
               <li>
                 <input type="text" placeholder="Email Address">
@@ -351,9 +390,14 @@
                 <textarea type="text" placeholder="Message"></textarea>
             </li>
           </ul>
-          <ul class="list-unstyled">
+          <ul class="list-unstyled spaced">
             <li>
-                <input type="text" placeholder="Occupation">
+                <select class="form-select form-select-lg" aria-label="Occupation">
+                    <option selected>Occupation</option>
+                    <option value="1">Developer</option>
+                    <option value="2">Designer</option>
+                    <option value="3">Manager</option>
+                  </select>
             </li>
             <li>
                 <input type="text" placeholder="Contact No.">
@@ -366,26 +410,52 @@
   </div>
   <!-- Reviews -->
   <div class="section-container bg-green-blue" id="reviews">
-      <div class="section-break"></div>
-        <div class="review-container">
-            <div class="author-container">
-                <h4>Alexis simpsons <h5>- CEO & Developer</h5></h4>
+    <div class="section-break">
+        <img src="./assets/section-icon.png" alt="section icon">
+        <i class="ei ei-icon_quotations"></i>
+    </div>
+        <div class="review-container mt-4">
+            <div class="author-container d-flex bg-white text-center mb-2">
+                <h4 class="text-green-blue">Alexis simpsons <span class="font-weight-normal text-light text-capitalize">- CEO & Developer</span> </h4>
             </div>
-            <div class="review-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ea officia quod earum soluta fugiat!</div>
+            <div class="review-content text-white text-center">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ea officia quod earum soluta fugiat!"</div>
         </div>
-        <div class="review-container">
-            <div class="author-container">
-                <h4>Alexis simpsons <h5>- CEO & Developer</h5></h4>
+        <div class="carousel-btn d-flex justify-content-center mt-2">
+            <div class="carousel-btn-left">
+                <i class="ei ei-arrow_triangle-left carousel-btn-left-arrow"></i>
             </div>
-            <div class="review-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ea officia quod earum soluta fugiat!</div>
-        </div>
-        <div class="carousel-btn">
-            <button></button>
-            <button></button>
+            <div class="carousel-btn-right">
+                <i class="ei ei-arrow_triangle-right carousel-btn-right-arrow"></i>
+            </div>
         </div>
   </div>
   <!-- Our Clients -->
-  <div class="section-container" id="clients"></div>
+  <div class="section-container bg-black" id="clients">
+    <div class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/scenthound-logo.png" class="d-block" alt="scenthound">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/vividways-logo.png" class="d-block" alt="vividways">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/hobnob-logo.png" class="d-block" alt="hobnob">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/burnabook-logo.png" class="d-block" alt="burnabook">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-btn d-flex justify-content-center mt-2">
+        <div class="carousel-btn-left">
+            <i class="ei ei-arrow_triangle-left carousel-btn-left-arrow"></i>
+        </div>
+        <div class="carousel-btn-right">
+            <i class="ei ei-arrow_triangle-right carousel-btn-right-arrow"></i>
+        </div>
+    </div>
+  </div>
   <!-- Footer -->
   <div class="footer">
     Copyright © 2017 APD Digital Services Sdn Bhd, All Rights Reserved.
