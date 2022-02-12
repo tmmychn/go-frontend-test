@@ -25,6 +25,7 @@ p {
 
   /* Padding */
   --site-padding: 14vw;
+  --site-padding-large: 20vw;
 }
 
 /* Utility classes */
@@ -60,6 +61,13 @@ body {
   }
 }
 
+@media only screen and (min-width: 1500px) {
+  .section-container {
+    padding-block: 5rem;
+    padding-inline: var(--site-padding-large);
+  }
+}
+
 /* ---------------- */
 /* ---Herobanner--- */
 /* ---------------- */
@@ -86,6 +94,7 @@ h1 {
 #hero-banner__subtitle {
   padding-inline: 1.5rem;
   padding-block: 0.2rem;
+  font-style: italic;
 }
 .title2 img {
   margin-inline: 0.5rem;
@@ -136,6 +145,13 @@ h1 {
   .hero-banner-content i {
     width: fit-content;
     margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .hero-banner {
+    padding-inline: var(--site-padding-large);
+    padding-top: 45vh;
   }
 }
 
@@ -267,6 +283,12 @@ h1 {
     font-size: 1rem;
     color: hsl(var(--clr-green-blue));
     cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .header {
+    padding-inline: var(--site-padding-large);
   }
 }
 
@@ -518,7 +540,7 @@ h1 {
 /* ----- Team ------ */
 /* ----------------- */
 .team-card {
-  width: 15rem;
+  width: 17rem;
   background-color: transparent;
   border-radius: 0.5rem;
   padding: 0;
@@ -634,6 +656,7 @@ h1 {
     margin-bottom: 1rem;
   }
   .team-card {
+    width: 15rem;
     margin-inline: 1rem;
   }
   #team button {
@@ -661,8 +684,6 @@ h1 {
 .form-title {
   font-size: 3rem;
   line-height: 3rem;
-  font-weight: 800;
-  color: hsl(var(--clr-green-blue));
   margin-bottom: 1rem;
 }
 form {
@@ -739,6 +760,7 @@ form .row > *:not(:last-child) {
   display: flex;
   transition: all 0.3s;
   width: 200%;
+  margin-bottom: 1rem;
 }
 .review-slider .review {
   flex-basis: 100%;
@@ -764,7 +786,6 @@ form .row > *:not(:last-child) {
   cursor: pointer;
   background-color: white;
   border-radius: 00.2rem;
-  margin-right: 0.5rem;
 }
 .carousel-btn-right {
   height: 2rem;
@@ -795,9 +816,9 @@ form .row > *:not(:last-child) {
 }
 
 .client-carousel {
-  width: 80%;
+  width: 16rem;
   overflow: hidden;
-  margin-inline: 1.5rem;
+  margin-inline: 0.5rem;
 }
 .client-slider {
   display: flex;
@@ -826,6 +847,7 @@ form .row > *:not(:last-child) {
 
   .client-carousel {
     width: 63rem;
+    margin-inline: 1.5rem;
   }
 }
 /* ------------ */
