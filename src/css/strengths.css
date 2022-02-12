@@ -1,0 +1,55 @@
+/* --------------------- */
+/* ----- Strength ------ */
+/* --------------------- */
+.strength-content-container {
+  display: flex;
+  margin-left: 1.5rem;
+}
+.strength-icon {
+  margin-inline: 1rem;
+  position: relative;
+}
+.strength-icon i {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.6rem;
+  color: hsl(var(--clr-white));
+}
+.content-container p {
+  width: 25ch;
+}
+#strengths .row > * {
+  margin-bottom: 1.5rem;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .strength-content-container {
+    margin-left: 0;
+  }
+
+  #strengths .row {
+    margin-bottom: 1.5rem;
+  }
+  #strengths .content-container h4 {
+    margin-bottom: 0.2rem;
+  }
+  #strengths .content-container h5 {
+    margin-bottom: 0.5rem;
+  }
+  #strengths .row > * {
+    margin-bottom: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 1500px) {
+  .content-container p {
+    width: 35ch;
+  }
+
+  #strengths .row {
+    padding-left: 5rem;
+  }
+}

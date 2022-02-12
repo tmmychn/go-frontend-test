@@ -1,0 +1,65 @@
+/* ----------------------- */
+/* ---Registration form--- */
+/* ----------------------- */
+.form-title {
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+form {
+  padding: 1rem;
+  border: 1px solid hsl(var(--clr-light-grey));
+  border-radius: 0.5rem;
+}
+form input,
+textarea,
+select {
+  padding: 0.5rem;
+  border: 1px solid hsl(var(--clr-light-grey));
+  border-radius: 0.5rem;
+  width: 100%;
+}
+input,
+textarea,
+select,
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-size: 0.75rem;
+  line-height: 3;
+}
+form button {
+  color: white;
+  background-color: hsl(var(--clr-green-blue));
+  width: 15rem;
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: 2px solid hsl(var(--clr-green-blue));
+}
+form .row,
+form .row > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  form {
+    padding: 2rem;
+  }
+  form .row {
+    margin-bottom: 2rem;
+  }
+  form .row > *:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

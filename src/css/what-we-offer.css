@@ -1,0 +1,65 @@
+/* --------------------- */
+/* --- what we offer --- */
+/* --------------------- */
+
+#what-we-offer i {
+  display: inline-block;
+  font-size: 2rem;
+  color: hsl(var(--clr-white));
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  border-radius: 50%;
+  margin-bottom: 0.8rem;
+}
+#what-we-offer button {
+  font-size: 0.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: hsl(var(--clr-grey-2));
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  border: 1px solid hsl(var(--clr-grey-2));
+  background-color: transparent;
+  margin-top: 1rem;
+  transition: all 0.3s;
+}
+#what-we-offer button:hover {
+  color: white;
+  border: 1px solid hsl(var(--clr-green-blue));
+  background-color: hsl(var(--clr-green-blue));
+}
+#what-we-offer h4 {
+  margin-bottom: 0.5rem;
+}
+#what-we-offer p {
+  width: 35ch;
+  margin: auto;
+}
+#what-we-offer > *:not(:last-child),
+#what-we-offer .row > *:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 992px) {
+  #what-we-offer i {
+    margin-bottom: 1.2rem;
+  }
+  #what-we-offer h4 {
+    margin-bottom: 1rem;
+  }
+
+  .title2 {
+    margin-bottom: 0.5rem;
+  }
+  .title-container {
+    margin-bottom: 2rem;
+  }
+
+  #what-we-offer > *:not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+  #what-we-offer .row > *:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

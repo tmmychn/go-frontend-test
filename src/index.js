@@ -1,9 +1,20 @@
 import _ from 'lodash';
-import './style.css';
-import './fonts.css';
-import './animations.css';
 import './main.js';
 
+// CSS
+import './css/style.css';
+import './css/fonts.css';
+import './css/animations.css';
+import './css/herobanner.css';
+import './css/what-we-offer.css';
+import './css/skills.css';
+import './css/strengths.css';
+import './css/team.css';
+import './css/registration-form.css';
+import './css/review.css';
+import './css/clients.css';
+
+// Assets
 import leftshape from './assets/shape_left.png';
 import rightshape from './assets/shape_right.png';
 import sectionbreak1 from './assets/section-icon_2.png';

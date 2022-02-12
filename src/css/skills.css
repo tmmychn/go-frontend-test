@@ -1,0 +1,121 @@
+/* -------------- */
+/* --- Skills --- */
+/* -------------- */
+#skills {
+  position: relative;
+}
+.section-break {
+  display: block;
+  position: absolute;
+  top: -1.7rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-break i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0.5rem 0 0 1.1rem;
+  color: hsl(var(--clr-white));
+  font-size: 1.3rem;
+}
+#skills > *:not(:last-child),
+#skills .row > *:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 992px) {
+  #skills > *:not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+  #skills .row > *:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+/* --------------------- */
+/* Circular progress bar */
+/* --------------------- */
+.graph-container {
+  margin-bottom: 1rem;
+}
+.circular {
+  height: 6rem;
+  width: 6rem;
+  position: relative;
+  margin-inline: auto;
+}
+.circular .inner {
+  position: absolute;
+  z-index: 6;
+  top: 50%;
+  left: 50%;
+  height: 5.6rem;
+  width: 5.6rem;
+  margin: -2.8rem 0 0 -2.8rem;
+  background: hsl(var(--clr-black));
+  border-radius: 100%;
+}
+.circular .graph__percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.circular .bar {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border-radius: 100%;
+  clip: rect(0px, 6rem, 6rem, 3rem);
+}
+.circle .bar .progress {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  clip: rect(0px, 3rem, 6rem, 0px);
+  background: hsl(var(--clr-green-blue));
+}
+
+.circle .right {
+  transform: rotate(180deg);
+  z-index: 3;
+}
+
+.circle .left .progress {
+  z-index: 1;
+  transform: rotate(180deg);
+}
+.circle .right .progress {
+  transform: rotate(-90deg);
+}
+
+.circular-3 .circle .left .progress {
+  z-index: 1;
+  transform: rotate(160deg);
+}
+.circular-3 .circle .right .progress {
+  transform: rotate(-90deg);
+}
+
+.circular-4 .circle .left .progress {
+  z-index: 1;
+  transform: rotate(180deg);
+}
+.circular-4 .circle .right .progress {
+  transform: rotate(180deg);
+}
+
+.circular-6 .circle .left .progress {
+  z-index: 1;
+  transform: rotate(90deg);
+}
+.circular-6 .circle .right .progress {
+  transform: rotate(-90deg);
+}

@@ -1,0 +1,43 @@
+/* ------------------- */
+/* --- Our Clients --- */
+/* ------------------- */
+
+#clients .carousel-btn-right {
+  background-color: hsl(var(--clr-green-blue));
+}
+
+.client-carousel {
+  width: 16rem;
+  overflow: hidden;
+  margin-inline: 0.5rem;
+}
+.client-slider {
+  display: flex;
+  width: 400%;
+  transition: all 0.3s;
+}
+.client-slider .slide {
+  cursor: pointer;
+  padding-right: 1rem;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  border-radius: 0.2rem;
+  transition: all 0.5s;
+}
+.client-slider .slide img {
+  width: 15rem;
+}
+.client-slider .slide:hover {
+  background-color: #333333;
+}
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #clients {
+    padding-inline: 5vw;
+  }
+
+  .client-carousel {
+    width: 63rem;
+    margin-inline: 1.5rem;
+  }
+}

@@ -1,0 +1,141 @@
+/* ----------------- */
+/* ----- Team ------ */
+/* ----------------- */
+.team-card {
+  width: 17rem;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  padding: 0;
+  margin: auto;
+}
+#team img {
+  object-fit: cover;
+}
+.card-top {
+  position: relative;
+}
+.card-img-overlay {
+  background-color: hsl(var(--clr-green-blue));
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.card-body {
+  position: relative;
+  border: 1px solid white;
+  border-top: transparent;
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding: 0.5rem;
+  padding-top: 2.2rem;
+}
+.card-body > h5 {
+  color: hsl(var(--clr-dark-grey));
+}
+.top-border {
+  width: 40%;
+  border-top: 1px solid white;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+.contact-info {
+  color: hsl(var(--clr-light-grey));
+}
+.card-img-top {
+  position: relative;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+.team-card__name {
+  width: fit-content;
+  color: white;
+  padding: 0.8rem;
+  background-color: hsl(var(--clr-green-blue));
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 0.2rem;
+  transition: all 0.3s;
+  z-index: 3;
+}
+.team-card__name h4 {
+  margin: 0;
+}
+.team-card h5 {
+  margin-bottom: 0.5rem;
+}
+#team button {
+  width: 17rem;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.2rem;
+  color: white;
+  background-color: hsl(var(--clr-green-blue));
+  border: 0;
+}
+
+#team .row > *:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.social-icon-container {
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.social-icon {
+  position: relative;
+  width: fit-content;
+  margin-inline: -0.2rem;
+  cursor: pointer;
+}
+.social-icon:hover img {
+  filter: invert(100%);
+}
+.social-icon i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 0.5rem;
+  margin-left: 0.7rem;
+  color: hsl(var(--clr-green-blue));
+}
+.social-icon:hover i {
+  color: hsl(var(--clr-white));
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #team {
+    padding-bottom: 6rem;
+  }
+  #team .row {
+    margin-bottom: 1rem;
+  }
+  .team-card {
+    width: 15rem;
+    margin-inline: 1rem;
+  }
+  #team button {
+    width: 100%;
+  }
+  #team .row > *:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .team-card:hover .team-card__name {
+    background-color: hsl(var(--clr-black));
+  }
+  .team-card:hover .email > h5 {
+    color: hsl(var(--clr-green-blue));
+  }
+  .team-card:hover .card-img-overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+}

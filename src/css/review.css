@@ -1,0 +1,62 @@
+/* --------------- */
+/* ----Review----- */
+/* --------------- */
+#reviews {
+  position: relative;
+}
+#reviews .section-break i {
+  margin: 0.7rem 0 0 1rem;
+}
+.review-carousel {
+  overflow: hidden;
+}
+.review-slider {
+  display: flex;
+  transition: all 0.3s;
+  width: 200%;
+  margin-bottom: 1rem;
+}
+.review-slider .review {
+  flex-basis: 100%;
+}
+.author-container {
+  width: max-content;
+  padding: 0.7rem;
+  margin: auto;
+  border-radius: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.carousel-btn {
+  text-align: center;
+}
+.carousel-btn i {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.carousel-btn-left {
+  height: 2rem;
+  width: 2rem;
+  color: hsl(var(--clr-green-blue));
+  cursor: pointer;
+  background-color: white;
+  border-radius: 00.2rem;
+}
+.carousel-btn-right {
+  height: 2rem;
+  width: 2rem;
+  color: white;
+  cursor: pointer;
+  background-color: hsl(var(--clr-black));
+  border-radius: 00.2rem;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .author-container {
+    margin-bottom: 1rem;
+  }
+  .review-content {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+}
