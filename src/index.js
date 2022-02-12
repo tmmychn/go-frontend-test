@@ -16,3 +16,7 @@ import vividways from './assets/vividways-logo.png';
 import hobnob from './assets/hobnob-logo.png';
 import burnabook from './assets/burnabook-logo.png';
 import socialicon from'./assets/bg_5.png';
+
+if (process.env.NODE_ENV !== 'production') {
+      console.log('Looks like we are in development mode!');
+}

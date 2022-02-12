@@ -10,7 +10,6 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin({
       template:"./src/template.html"
   })],
-  mode: process.env.NODE_ENV === "production" ? "production" : "development",
   module: {
       rules:[
           {
