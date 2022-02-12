@@ -40,7 +40,7 @@ select {
   -moz-appearance: none;
 }
 
-input[type="text"]:focus,
+input:focus,
 textarea:focus,
 select:focus {
   outline: none;
