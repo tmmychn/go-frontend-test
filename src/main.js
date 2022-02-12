@@ -1,5 +1,6 @@
 import $ from 'jquery';
 
+// Navbar Menu
 $(".menu-icon").click(function() {
     $(".menu-icon").find('i').toggle();
     if ($(".menu-open").length > 0){
