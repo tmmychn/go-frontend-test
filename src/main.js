@@ -45,15 +45,21 @@ clientRightIcon.on('click', function() {
 // SMTP
 function sendEmail() {
     Email.send({
-        Host : "smtp.gmail.com",
-        Username : "hahaknight6309@gmail.com",
-        Password : "tommy6309",
+        Host : "smtp.elasticemail.com",
+        Username : "tommycxy22@gmail.com",
+        Password : "AC7933A34587BCA3B4F178A1F1DDD3E6DA76",
+        Port:"2525",
         To : 'tommycxy22@gmail.com',
         From : $('#email').val(),
         Subject : "New Contact Form Enquiry",
-        Body : "And this is the body"
+        Body : "New Enquiry from: " +
+        "<br> Name: " + $('#name').val() +
+        "<br> Email Address: " + $('#email').val() +
+        "<br> Contact No.: " + $('#contact').val() +
+        "<br> Occupation: " + $('#occupation').val() +
+        "<br> Message: " + $('#message').val()
     }).then(
-      message => alert(message)
+      message => alert("Your enquiry has been succesfully sent!")
     );
 }
 
