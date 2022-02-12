@@ -8,6 +8,15 @@
   font-stretch: normal;
 }
 
+@font-face {
+  font-family: AvenirNextDemiBold;
+  src: local(AvenirNext-DemiBold),
+    url(/src/fonts/AvenirNext-DemiBold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -41,17 +50,6 @@ button {
   font-weight: 800;
 }
 
-.Text-Style-4 {
-  font-family: ElegantIcons;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: hsl(var(--clr-white));
-}
-
 .Text-Style-5 {
   font-weight: 800;
   font-stretch: normal;
@@ -72,18 +70,6 @@ button {
   color: hsl(var(--clr-green-blue));
 }
 
-.Text-Style-2 {
-  font-family: ElegantIcons;
-  font-size: 20px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: hsl(var(--clr-white));
-}
-
 .Text-Style {
   font-weight: 800;
   font-stretch: normal;
@@ -91,6 +77,13 @@ button {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
+  color: hsl(var(--clr-green-blue));
+}
+
+.Text-Style-6 {
+  font-family: AvenirNextDemiBold;
+  font-weight: 400;
+  font-style: italic;
   color: hsl(var(--clr-green-blue));
 }
 
